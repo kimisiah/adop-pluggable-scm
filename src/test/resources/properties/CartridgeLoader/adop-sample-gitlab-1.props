@@ -1,0 +1,7 @@
+loader.id=adop-sample-gitlab-1
+gitlab.endpoint=gitlab
+gitlab.user=jenkins
+gitlab.port=443
+gitlab.protocol=ssh
+gitlab.permissions.path=${PROJECT_NAME}/permissions
+gitlab.permissions.with_review.path=${PROJECT_NAME}/permissions-with-review
